@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://woodstone.com.ua/</loc>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://woodstone.com.ua/main</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://woodstone.com.ua/ru/main</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://woodstone.com.ua/en/main</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://woodstone.com.ua/about</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://woodstone.com.ua/products</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://woodstone.com.ua/services</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://woodstone.com.ua/photogallery</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://woodstone.com.ua/contacts</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://woodstone.com.ua/cooperation</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://woodstone.com.ua/ru/about</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://woodstone.com.ua/ru/products</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://woodstone.com.ua/ru/services</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://woodstone.com.ua/ru/photogallery</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://woodstone.com.ua/ru/contacts</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://woodstone.com.ua/ru/cooperation</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://woodstone.com.ua/en/about</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://woodstone.com.ua/en/products</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://woodstone.com.ua/en/services</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://woodstone.com.ua/en/photogallery</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://woodstone.com.ua/en/contacts</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://woodstone.com.ua/en/cooperation</loc>
+  <priority>0.64</priority>
+</url>
+</urlset>

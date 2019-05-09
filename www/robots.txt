@@ -1,0 +1,19 @@
+User-agent: Yandex
+Disallow: /admin/
+Disallow: /en/
+Disallow: /media/
+Host: woodstone.com.ua
+
+User-agent: Googlebot
+Disallow: /admin/
+Disallow: /en/
+Disallow: /media/
+
+User-agent: *
+Crawl-delay: 5
+Disallow: /admin/
+Disallow: /en/
+Disallow: /media/
+
+Sitemap: https://woodstone.com.ua/sitemap.xml
+

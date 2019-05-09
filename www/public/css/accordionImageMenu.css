@@ -1,0 +1,63 @@
+		.aim{
+            position:relative;
+            overflow:hidden;
+            margin: -80px 0 0 0;
+            clear:both;
+            padding:0;
+
+            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+            -moz-box-shadow:-23px 30px 20px -23px rgba(0, 0, 0, .8);
+            -webkit-box-shadow:-23px 30px 20px -23px rgba(0, 0, 0, .8);
+            box-shadow: -23px 30px 20px -23px rgba(0, 0, 0, .8);
+
+        }
+
+		.aim a
+        {
+            /*background-position:center center;*/
+            cursor:pointer;
+            display:block;
+            overflow:hidden;
+            position:relative;
+            float:left;
+            text-decoration:none;
+        }
+
+		.aim a:hover, .aim a:visited, .aim a:hover > span {
+            background: url("../images/menu-bg-hover.png");
+            text-decoration:none;
+        }
+
+		.aim ul{list-style:none}
+
+		.aim li{
+            display:block;
+            overflow:hidden;
+            float:left;
+        }
+		.aim a span{
+            color:#FFFFFF;
+            bottom:10px;
+            left:0px;
+            /*width:100%;*/
+            width:150px;
+            display:block;
+            padding:2px 5px 5px;
+            position:absolute;
+            background:#3d84b0;
+            font-size:12px;
+            font-weight:bold;
+            /*height:15px;*/
+            line-height:18px;
+            /*opacity: 1 !important;*/
+        }
+
+        .aim a p {
+            display: none;
+            height: 100%;
+            background: url("../images/menu-bg-hover.png");
+            color: #fff;
+            margin: 0 0 0 150px;
+            padding: 20px;
+        }
