@@ -1,8 +1,8 @@
 <div class="container">
     <div class="row">
-        <div class="col-xs-10 col-xs-offset-2 col-sm-10 col-sm-offset-0 col-md-9 col-md-offset-2 col-lg-9 col-lg-offset-2 hidden-xs hidden-sm">
+        <div class="col-xs-10 col-xs-offset-3 col-sm-10 col-sm-offset-0 col-md-9 col-md-offset-3 col-lg-9 col-lg-offset-3 hidden-xs hidden-sm">
             <ul id="accordion">
-                <li>
+                <!-- <li>
                     <a href="<?=URL::site($lang.'/products/7')?>">
                         <span><?=__('Мармуровий&nbsp;кар’єр')?></span>
                         <p class="accordion-description">
@@ -11,7 +11,7 @@
                         </p>
                         <img src="<?php echo URL::base(); ?>public/images/frame-mramor.jpg" alt="" />
                     </a>
-                </li>
+                </li> -->
                 <li>
                     <a href="<?=URL::site($lang.'/products/8')?>">
                         <span><?=__('Деревообробний&nbsp;цех')?></span>
