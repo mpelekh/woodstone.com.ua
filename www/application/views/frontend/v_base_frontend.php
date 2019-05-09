@@ -58,7 +58,14 @@
         <div class="container">
             <div class="row" id="header-row-logo">
                 <div class="col-xs-12 col-xs-offset-0 col-sm-5 col-sm-offset-1 col-md-3 col-md-offset-2 col-lg-3 col-lg-offset-2">
-                    <a href="<?=URL::site($lang.'/main')?>"><img src="<?php echo URL::base(); ?>public/images/logo-header.png" alt="" title="Карпати"></a>
+                    <a href="<?=URL::site($lang.'/main')?>" style="text-decoration: none">
+                        <!-- <img src="<?php echo URL::base(); ?>public/images/logo-header.png" alt="" title="Карпати"> -->
+                        <div style="
+                            font-weight: bold;
+                            font-size: 25px;
+                            margin-top: 5px;
+                        ">Карпатський камінь</div>
+                    </a>
                 </div>
                 <div class="col-xs-8 col-xs-offset-0 col-sm-3 col-sm-offset-0 col-md-3 col-md-offset-0 col-lg-3 col-lg-offset-0 text-center header-phones">
                     <!-- <h6>+38</h6> <h4><strong>050 991 92 71</strong></h4><br> -->
@@ -189,7 +196,12 @@
                 </div>
                 <div class="col-xs-12 col-xs-offset-0 col-sm-12 col-sm-offset-0 col-md-3 col-md-offset-0 col-lg-3 col-lg-offset-0 text-center">
                     <div class="footer-info-logo">
-                        <img src="<?php echo URL::base(); ?>public/images/footer-info-logo.png" alt="Карпати"/>
+                        <!-- <img src="<?php echo URL::base(); ?>public/images/footer-info-logo.png" alt="Карпати"/> -->
+                        <div style="
+                            font-weight: bold;
+                            font-size: 25px;
+                            margin-top: 5px;
+                        ">Карпатський камінь</div>
                     </div>
                 </div>
             </div>
@@ -200,8 +212,13 @@
             <div class="row">
                 <div class="col-xs-12 col-xs-offset-0 col-sm-5 col-sm-offset-4 col-md-4 col-md-offset-5 col-lg-4 col-lg-offset-5">
                     <p>
-                        <a class="toup" href="#">
-                            <img src="<?php echo URL::base(); ?>public/images/footer-copyright-to-up.png" alt=""/>
+                        <a class="toup" href="#" style="text-decoration: none">
+                            <!-- <img src="<?php echo URL::base(); ?>public/images/footer-copyright-to-up.png" alt=""/> -->
+                            <div style="
+                                font-weight: bold;
+                                font-size: 25px;
+                                margin-top: 5px;
+                            ">Карпатський камінь</div>
                         </a>
                         &nbsp;&nbsp;&nbsp;<?=__('ТОВ «Карпати» '.date('Y').'. Всі права захищені.')?>
                     </p>
