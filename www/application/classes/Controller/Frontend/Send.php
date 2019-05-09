@@ -35,7 +35,7 @@ class Controller_Frontend_Send extends Controller_Frontend {
 
                 $from_form = Arr::extract($_POST, array('name', 'tel', 'email', 'question', 'controller'));
 
-                $to = 'tzovkarpaty@gmail.com';
+                $to = 'abzyresky@gmail.com';
                 //$to = 'd.koval7@gmail.com';
                 $from = 'karpaty1221@gmail.com';
                 $subject = 'Запитання відвідувача сайту "Карпати"';
