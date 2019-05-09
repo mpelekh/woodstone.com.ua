@@ -82,9 +82,9 @@
                         <a href="<?=URL::site('/ru/'.$controller.$action.$product_id)?>">
                             <img src="<?php echo URL::base(); ?>public/images/flag-ru.png" alt=""/>
                         </a>
-                        <a href="<?=URL::site('/en/'.$controller.$action.$product_id)?>">
+                        <!-- <a href="<?=URL::site('/en/'.$controller.$action.$product_id)?>">
                             <img src="<?php echo URL::base(); ?>public/images/flag-en.png" alt=""/>
-                        </a>
+                        </a> -->
                     </div>
                 </div>
             </div>

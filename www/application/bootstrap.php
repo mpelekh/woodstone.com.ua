@@ -190,7 +190,7 @@ Route::set('admin', 'admin(/<controller>(/<action>(/<id>)))', array('id' => 'ua|
         'action'     => 'edit',
     ));
 
-Route::set('products', '(<lang>/)products(/<id>)', array('lang' => 'ua|ru|en'))
+Route::set('products', '(<lang>/)products(/<id>)', array('lang' => 'ua|ru'))
     ->defaults(array(
         'directory'  => 'frontend',
         'controller' => 'products',
@@ -198,7 +198,7 @@ Route::set('products', '(<lang>/)products(/<id>)', array('lang' => 'ua|ru|en'))
 
     ));
 
-Route::set('default', '(<lang>)(/)(<controller>)(/<action>)(/<id>)', array('lang' => 'ua|ru|en'))
+Route::set('default', '(<lang>)(/)(<controller>)(/<action>)(/<id>)', array('lang' => 'ua|ru'))
     ->defaults(array(
         'directory'  => 'frontend',
         'controller' => 'main',
