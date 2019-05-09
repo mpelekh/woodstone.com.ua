@@ -143,9 +143,9 @@
                             <li id="contacts">
                                 <a href="<?=URL::site($lang.'/contacts')?>"><?=__('Контакти')?></a>
                             </li>
-                            <li id="cooperation">
+                            <!-- <li id="cooperation">
                                 <a href="<?=URL::site($lang.'/cooperation')?>"><?=__('Співпраця')?></a>
-                            </li>
+                            </li> -->
 
                             <li class="header-cover-li">
                                 <a href="#" data-toggle="modal" data-target="#myModal-cover" id="header-cover-bg">
