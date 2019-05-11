@@ -117,22 +117,8 @@
                             <li id="about">
                                 <a href="<?=URL::site($lang.'/about')?>"><?=__('Про нас')?></a>
                             </li>
-                            <li id="products" class="dropdown">
-                                <a href="<?=URL::site($lang.'/products')?>" class="dropdown-toggle">
-                                    <?=__('Продукція')?>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <!-- <li><a href="<?=URL::site($lang.'/products')?>/7"><?=__('Мармурова крихта')?></a></li> -->
-                                    <li><a href="<?=URL::site($lang.'/products')?>/8"><?=__('Деревообробний цех')?></a></li>
-                                    <li><a href="<?=URL::site($lang.'/products')?>/502"><?=__('Цех готової продукції')?></a></li>
-                                    <li><a href="<?=URL::site($lang.'/products')?>/503"><?=__('Столярний цех')?></a></li>
-                                </ul>
-                                <ul class="visible-xs-block">
-                                    <!-- <li><a href="<?=URL::site($lang.'/products')?>/7"><?=__('Мармурова крихта')?></a></li> -->
-                                    <li><a href="<?=URL::site($lang.'/products')?>/8"><?=__('Деревообробний цех')?></a></li>
-                                    <li><a href="<?=URL::site($lang.'/products')?>/502"><?=__('Цех готової продукції')?></a></li>
-                                    <li><a href="<?=URL::site($lang.'/products')?>/503"><?=__('Столярний цех')?></a></li>
-                                </ul>
+                            <li id="products">
+                                <a href="<?=URL::site($lang.'/products')?>"><?=__('Продукція')?></a>
                             </li>
                             <li id="services">
                                 <a href="<?=URL::site($lang.'/services')?>"><?=__('Послуги')?></a>
