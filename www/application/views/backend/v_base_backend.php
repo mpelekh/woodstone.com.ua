@@ -70,7 +70,14 @@
         <div class="container">
             <div class="row" id="header-row-logo">
                 <div class="col-xs-3 col-xs-offset-2">
-                    <a href="<?php echo URL::base(); ?>"><img src="<?php echo URL::base(); ?>public/images/logo-header.png" alt="" title="Карпати"></a>
+                    <a href="<?php echo URL::base(); ?>" style="text-decoration: none">
+                        <!-- <img src="<?php echo URL::base(); ?>public/images/logo-header.png" alt="" title="Карпати"> -->
+                        <div style="
+                            font-weight: bold;
+                            font-size: 25px;
+                            margin-top: 5px;
+                        ">Карпатський камінь</div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -136,7 +143,7 @@
                         <a class="toup" href="#">
                             <img src="<?php echo URL::base(); ?>public/images/footer-copyright-to-up.png" alt=""/>
                         </a>
-                        &nbsp;&nbsp;&nbsp;ТзОВ «Карпати» <?php echo date('Y') ?>. Всі права захищені.
+                        Карпатський камінь <?php echo date('Y') ?>. Всі права захищені.
                     </p>
                 </div>
             </div>
