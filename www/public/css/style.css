@@ -194,7 +194,6 @@ h3, h4, h5, h6 {display: inline;}
 /*Main About*/
 .main-content-about {
     background: url("../images/item-bg-greay.png");
-    margin-top: 50px;
     color: #696969;
     font-family: Time New Roman;
 }
