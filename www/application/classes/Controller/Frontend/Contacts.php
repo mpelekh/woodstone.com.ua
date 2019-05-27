@@ -43,7 +43,7 @@ class Controller_Frontend_Contacts extends Controller_Frontend {
 
                 $from_form = Arr::extract($_POST, array('name', 'town', 'tel', 'email', 'question'));
 
-                $to = 'tzovkarpaty@gmail.com';
+                $to = 'abzyresky@gmail.com';
                 //$to = 'd.koval7@gmail.com';
                 $from = 'karpaty1221@gmail.com';
                 $subject = 'Запитання відвідувача сайту "Карпати"';
